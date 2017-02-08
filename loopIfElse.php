@@ -3,11 +3,15 @@ $number = rand(1, 10);
 
 if ($number <= 5)
 {
-	echo "WEAK";
+?>
+	<h3>WEAK</h3>
+<?php
 }
 elseif ($number >=6)
 {
-	echo "STRONG";
+?>	
+	<h1>STRONG</h1>
+<?php
 }
 else
 {
