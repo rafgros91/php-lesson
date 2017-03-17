@@ -12,7 +12,9 @@ session_start(); // On démarre la session AVANT toute chose
     <p>Hello Again!</p>
     <p>
         I remember you! Your name is <?php echo $_SESSION['prenom'] . ' ' . $_SESSION['nom']; ?> !<br />
-        And about your age... You are <?php echo $_SESSION['age']; ?> years old, isn't it? :D
+        And about your age... You are <?php echo $_SESSION['age']; ?> years old, isn't it? :D<br />
+		<br />
+		Also your pseudo is <?php echo $_COOKIE['pseudo']; ?> 
     </p>
     </body>
 </html>
